@@ -18,6 +18,10 @@ div.products {
     left: 2px;
     z-index: 20;
 }
+.hot-badge {
+    width: 60px;
+    height: 60px;
+}
 
 .product-card .footer .btn {
     margin-bottom: 4px;

@@ -39,6 +39,17 @@
                         </div>
                     </th:block>
                 </div>
+                <div class="row">
+                    <h3 class="text-center">
+                        The Best of the Best
+                    </h3>
+
+                    <th:block th:if="${products}" id="products" class="group" th:each="product : ${products}" th:object="${product}" >
+                        <div class="col-sm-6 col-md-3"  th:if="${product.isActive()}"
+                             th:include="catalog/partials/productListItem2">
+                        </div>
+                    </th:block>
+                </div>
             </div>
         </div>
     </div>

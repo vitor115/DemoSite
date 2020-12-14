@@ -978,6 +978,32 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-color: #FFFFFF;
   box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
 }
+.btn.btn-spotify,
+.navbar .navbar-nav > li > a.btn.btn-spotify {
+  background-color: #00910c;
+  color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(229, 45, 39, 0.14), 0 3px 1px -2px rgba(93, 229, 39, 0.2), 0 1px 5px 0 rgba(99, 229, 39, 0.12);
+}
+.btn.btn-spotify:focus, .btn.btn-spotify:active, .btn.btn-spotify:hover,
+.navbar .navbar-nav > li > a.btn.btn-spotify:focus,
+.navbar .navbar-nav > li > a.btn.btn-spotify:active,
+.navbar .navbar-nav > li > a.btn.btn-spotify:hover {
+  background-color: #00910c;
+  color: #fff;
+  box-shadow: 0 14px 26px -12px rgba(109, 229, 39, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(83, 229, 39, 0.2);
+}
+.btn.btn-spotify.btn-simple,
+.navbar .navbar-nav > li > a.btn.btn-spotify.btn-simple {
+  color: #00910c;
+  background-color: transparent;
+  box-shadow: none;
+}
+.btn.btn-spotify.btn-white,
+.navbar .navbar-nav > li > a.btn.btn-spotify.btn-white {
+  color: #00910c;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+}
 .btn.btn-tumblr,
 .navbar .navbar-nav > li > a.btn.btn-tumblr {
   background-color: #35465c;
